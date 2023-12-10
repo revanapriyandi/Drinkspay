@@ -6,7 +6,7 @@ Selamat datang di Aplikasi Toko Minuman! Aplikasi ini dibangun dengan menggunaka
 
 1. **Clone Repository**
 
-   - Unzip folder atau clone dari `(https://github.com/revanapriyandi/toko_minuman.git)`
+   - Unzip folder atau clone dari `([https://github.com/revanapriyandi/toko_minuman.git](https://github.com/revanapriyandi/Drinkspay.git))`
    - Pindahkan folder TokoMinuman yang ada file php ke dalam file htdocs atau www web server anda.
 
 2. **Buat Database**

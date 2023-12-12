@@ -18,7 +18,7 @@ $page = isset($_GET['page']) ? htmlspecialchars($_GET['page']) : '';
                     <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
                     </div>
-                    <span class="nav-link-text ms-1">Dashboard</span>
+                    <span class="nav-link-text ms-1">Beranda</span>
                 </a>
             </li>
             <?php
@@ -32,7 +32,7 @@ $page = isset($_GET['page']) ? htmlspecialchars($_GET['page']) : '';
                             <i class="fa fa-users text-warning text-sm opacity-10"></i>
                         </div>
                         <span class="nav-link-text ms-1">
-                            User
+                            Pengguna
                         </span>
                     </a>
                 </li>
@@ -91,6 +91,6 @@ $page = isset($_GET['page']) ? htmlspecialchars($_GET['page']) : '';
         </ul>
     </div>
     <div class="sidenav-footer mx-3 my-3">
-        <a class="btn btn-danger btn-sm mb-0 w-100" href="logout.php" type="button">Logout</a>
+        <a class="btn btn-danger btn-sm mb-0 w-100" href="logout.php" type="button">Keluar</a>
     </div>
 </aside>

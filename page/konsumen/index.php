@@ -9,7 +9,7 @@
                     <thead>
                         <tr>
                             <th class="text-uppercase text-center text-secondary text-xxs font-weight-bolder opacity-7">No</th>
-                            <th class="text-uppercase text-center text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
+                            <th class="text-uppercase text-center text-secondary text-xxs font-weight-bolder opacity-7">Konsumen</th>
                             <th class="text-uppercase text-center text-secondary text-xxs font-weight-bolder opacity-7">Total Pembayaran</th>
                             <th class="text-uppercase text-center text-secondary text-xxs font-weight-bolder opacity-7">Rentang Pembelian</th>
                             <th class="text-uppercase text-center text-secondary text-xxs font-weight-bolder opacity-7">Created At</th>
@@ -81,6 +81,10 @@
 
 <script>
     $(document).ready(function() {
-        $('#tableKonsumen').DataTable();
+        $('#tableKonsumen').DataTable({
+            language: {
+                url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/id.json',
+            },
+        });
     });
 </script>

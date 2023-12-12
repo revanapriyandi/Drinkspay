@@ -18,7 +18,7 @@ if (isset($_GET['id'])) {
 <div class="col-lg-8 mt-lg-0 mt-4">
     <div class="card">
         <div class="card-body">
-            <h5 class="font-weight-bolder">Kategori Information</h5>
+            <h5 class="font-weight-bolder">Informasi Kategori</h5>
             <form id="form" action="<?php echo $action ?>" method="POST">
                 <input type="hidden" value="<?php echo $data['id'] ?>" name="id">
                 <input type="hidden" value="kategori" name="op">
@@ -31,7 +31,7 @@ if (isset($_GET['id'])) {
 
                 <div class="row mt-4">
                     <div class=" text-right d-flex flex-column justify-content-center mb-3">
-                        <button type="submit" class="btn btn-dark">Save</button>
+                        <button type="submit" class="btn btn-dark">Simpan</button>
                     </div>
                 </div>
             </form>

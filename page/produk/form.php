@@ -24,7 +24,7 @@ if (isset($_GET['id'])) {
         <div class="col-lg-4">
             <div class="card h-100">
                 <div class="card-body">
-                    <h5 class="font-weight-bolder">Product Image</h5>
+                    <h5 class="font-weight-bolder">Gambar Produk</h5>
                     <div class="row">
                         <div class="col-12">
                             <img class="w-100 border-radius-lg shadow-lg mt-3" src="<?php
@@ -50,12 +50,12 @@ if (isset($_GET['id'])) {
         <div class="col-lg-8 mt-lg-0 mt-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="font-weight-bolder">Produk Information</h5>
+                    <h5 class="font-weight-bolder">Informasi Produk</h5>
                     <input type="hidden" value="<?php echo $data['id'] ?>" name="id">
                     <input type="hidden" value="produk" name="op">
                     <div class="row">
                         <div class="col-12 col-md-6">
-                            <label>Name</label>
+                            <label>Nama</label>
                             <input class="form-control" type="text" name="name" value="<?php echo $data['name'] ?>" required>
                         </div>
                         <div class="col-12 col-md-6">

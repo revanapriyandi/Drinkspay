@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'toko_minuman';
+$host = 'db';
+$username = 'MYSQL_USER';
+$password = 'MYSQL_PASSWORD';
+$database = 'MYSQL_DATABASE';
 
 $konek = new mysqli($host, $username, $password, $database);
 

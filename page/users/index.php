@@ -1,14 +1,14 @@
 <div class="row my-4">
     <div class="col-12">
         <div class=" text-right d-flex flex-column justify-content-center mb-3">
-            <a href="index.php?page=user-add&action=add" class="btn btn-dark mb-0 ms-lg-auto me-lg-0 me-auto mt-lg-0 mt-2">Tambah User</a>
+            <a href="index.php?page=user-add&action=add" class="btn btn-dark mb-0 ms-lg-auto me-lg-0 me-auto mt-lg-0 mt-2">Tambah Pengguna</a>
         </div>
         <div class="card card-body">
             <div class="table-responsive">
                 <table class="table align-items-center mb-0" id="tableUser">
                     <thead>
                         <tr>
-                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nama</th>
                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Email</th>
                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Role</th>
                             <th></th>
@@ -72,6 +72,10 @@
 
 <script>
     $(document).ready(function() {
-        $('#tableUser').DataTable();
+        $('#tableUser').DataTable({
+            language: {
+                url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/id.json',
+            },
+        });
     });
 </script>

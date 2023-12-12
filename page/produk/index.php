@@ -7,7 +7,7 @@
                 <div class="ms-auto my-auto">
                     <a href="index.php?page=produk-add&action=add" class="btn bg-gradient-dark btn-sm mb-0">+&nbsp; Tambah Produk</a>
                     <button type="button" class="btn btn-warning btn-sm mb-0" data-bs-toggle="modal" data-bs-target="#modalStokProduk">
-                        Change Stok
+                        Ubah Stok
                     </button>
                 </div>
             </div>
@@ -19,7 +19,7 @@
                         <tr>
                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"></th>
                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Kode</th>
-                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Name</th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Produk</th>
                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Stok</th>
                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Kategori</th>
                             <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Harga</th>
@@ -109,7 +109,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalStokProdukLabel">Change Stok Produk</h5>
+                <h5 class="modal-title" id="modalStokProdukLabel">Ubah Stok Produk</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -126,8 +126,8 @@
                     </div>
                     <div class="row mt-4">
                         <div class="col-12">
-                            <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="submit" class="btn bg-gradient-dark">Save changes</button>
+                            <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Tutup</button>
+                            <button type="submit" class="btn bg-gradient-dark">Simpan</button>
                         </div>
                     </div>
                 </form>
@@ -138,7 +138,11 @@
 
 <script>
     $(document).ready(function() {
-        $('#tableProduk').DataTable();
+        $('#tableProduk').DataTable({
+            language: {
+                url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/id.json',
+            },
+        });
 
         $('#modalStokProduk').on('show.bs.modal', function(event) {
             var button = $(event.relatedTarget)

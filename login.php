@@ -7,7 +7,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/logo.png">
     <link rel="icon" type="image/png" href="./assets/img/logo.png">
     <title>
-        Drink's Pay | Register
+        Drink's Pay | Login
     </title>
 
     <meta name="description" content="Drink's Pay adalah aplikasi kasir untuk usaha minuman.">
@@ -28,9 +28,9 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-5 text-center mx-auto">
-                        <h1 class="text-white mb-2 mt-5">Welcome!</h1>
+                        <h1 class="text-white mb-2 mt-5">Selamat Datang!</h1>
                         <p class="text-lead text-white">
-                            Sign in to your account to continue.
+                            Silahkan login untuk melanjutkan
                         </p>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                 <div class="col-xl-5 col-lg-5 col-md-7 mx-auto">
                     <div class="card z-index-0">
                         <div class="card-header text-center pt-4">
-                            <h5>Sign in with</h5>
+                            <h5>Login</h5>
                         </div>
                         <div class="card-body">
                             <form role="form" method="POST" action="proses/cekLogin.php">
@@ -54,13 +54,13 @@
                                 <div class="form-check form-check-info text-start">
                                     <input class="form-check-input" type="checkbox" name="remember" value="" id="remembed">
                                     <label class="form-check-label" for="remembed">
-                                        Remember me
+                                        Ingat Saya
                                     </label>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="btn bg-gradient-dark w-100 my-4 mb-2" name="proses">Sign In</button>
+                                    <button type="submit" class="btn bg-gradient-dark w-100 my-4 mb-2" name="proses">Masuk</button>
                                 </div>
-                                <p class=" text-sm mt-3 mb-0">Dont have an account? <a href="register.php" class="text-dark font-weight-bolder">Sign up</a></p>
+                                <p class=" text-sm mt-3 mb-0">Tidak Memiliki Akun? <a href="register.php" class="text-dark font-weight-bolder">Daftar</a></p>
                             </form>
                         </div>
                     </div>

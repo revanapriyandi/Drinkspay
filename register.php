@@ -28,9 +28,9 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-5 text-center mx-auto">
-                        <h1 class="text-white mb-2 mt-5">Welcome!</h1>
+                        <h1 class="text-white mb-2 mt-5">Daftar!</h1>
                         <p class="text-lead text-white">
-                            Sign up to create an account.
+                            Silahkan daftar untuk melanjutkan
                         </p>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                 <div class="col-xl-7 col-lg-7 col-md-7 mx-auto">
                     <div class="card z-index-0">
                         <div class="card-header text-center pt-4">
-                            <h5>Sign up with</h5>
+                            <h5>Daftar</h5>
                         </div>
                         <div class="card-body">
                             <form method="POST" action="proses/prosesTambah.php">
@@ -69,9 +69,9 @@
                                     </label>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="btn bg-gradient-dark w-100 my-4 mb-2" name="proses">Sign In</button>
+                                    <button type="submit" class="btn bg-gradient-dark w-100 my-4 mb-2" name="proses">Daftar</button>
                                 </div>
-                                <p class=" text-sm mt-3 mb-0">Dont have an account? <a href="login.php" class="text-dark font-weight-bolder">Sign in</a></p>
+                                <p class=" text-sm mt-3 mb-0">Sudah Memiliki akun? <a href="login.php" class="text-dark font-weight-bolder">Masuk</a></p>
                             </form>
                         </div>
                     </div>

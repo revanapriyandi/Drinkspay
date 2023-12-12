@@ -173,7 +173,10 @@ if ($user['role'] == 'owner') {
                 <div class="col-lg-12 mb-4 mb-lg-0">
                     <div class="card z-index-2 h-100">
                         <div class="card-header pb-0 pt-3 bg-transparent">
-                            <h6 class="text-capitalize">Sales overview</h6>
+                            <h6 class="text-capitalize">
+                                <i class="fa fa-chart-bar text-primary"></i>
+                                Grafik Penjualan <?php echo date('Y'); ?>
+                            </h6>
                             <p class="text-sm mb-0">
                                 <i class="fa fa-arrow-up text-success" aria-hidden="true"></i>
                                 in <?php echo date('F'); ?>
